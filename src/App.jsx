@@ -16,7 +16,7 @@ function App() {
           
           <nav className="bg-white shadow-md px-6 py-4 h-[72px] flex justify-between items-center w-full">
             <h1 className="text-xl font-bold text-green-600">
-              <img src="/logo.svg" alt="Logo" />
+              <img src="src\Vite + React_files\logo-S2lIhR8K.svg" alt="Logo" />
             </h1>
 
           
