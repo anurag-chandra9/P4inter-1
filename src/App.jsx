@@ -4,7 +4,7 @@ import { FaFilter, FaUserPlus } from "react-icons/fa";
 import PostCard from "./Postcard.jsx";
 import PostCard2 from "./Postcard2.jsx";
 import PostCard3 from "./Post3.jsx";
-import SignupModal from "./SignUp.jsx"
+import SignupModal from "./signup.jsx"
 function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
 
