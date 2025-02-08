@@ -7,7 +7,7 @@ const PostCard2 = () => {
       
       {/* ✅ Post Image */}
       <img
-        src="https://source.unsplash.com/800x400/?event,meeting"
+        src="src\Vite + React_files\car-kZ9O3U5Q.jpg"
         alt="Post Cover"
         className="w-full h-[200px] md:h-[250px] object-cover"
       />
@@ -43,7 +43,7 @@ const PostCard2 = () => {
           {/* 🧑‍💼 Author Info */}
           <div className="flex items-center space-x-2">
             <img
-              src="https://source.unsplash.com/50x50/?person"
+              src="src\Vite + React_files\c3ac7682e52df2e10d0a36ec3f243a44-6fhMyk-S.jpg"
               alt="Author"
               className="w-10 h-10 rounded-full"
             />

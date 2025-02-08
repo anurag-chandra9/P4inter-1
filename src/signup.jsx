@@ -102,12 +102,13 @@ const SignupModal = ({ isOpen, onClose }) => {
 
         {/* Right Side: Illustration (Hidden on Mobile) */}
         <div className="hidden sm:flex sm:w-1/2 p-6 flex-col items-center">
-          <img
-            src="/signup-illustration.png"
-            alt="Sign Up"
-            className="w-40 mt-2 opacity-90"
-          />
-        </div>
+  <img
+    src="src\Vite + React_files\signup-OCG-APNN.svg"
+    alt="Sign Up"
+    className="w-96 h-72 mt-2 opacity-90"
+  />
+</div>
+
       </div>
     </div>
   );
