@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import { FaFilter, FaUserPlus } from "react-icons/fa"; 
-import PostCard from "./Postcard";
-import PostCard2 from "./PostCard2";
-import PostCard3 from "./Post3.jsx";
-import SignupModal from "./signup.jsx"
+import PostCard from "./Postcard.jsx";
+import PostCard2 from "./PostCard2.jsx";
+import PostCard3 from "./PostCard3.jsx";
+import SignupModal from "./SignUp.jsx"
 function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
 
@@ -15,7 +15,9 @@ function App() {
 
           
           <nav className="bg-white shadow-md px-6 py-4 h-[72px] flex justify-between items-center w-full">
-            <h1 className="text-xl font-bold text-green-600"><img src="src\Vite + React_files\logo-S2lIhR8K.svg" alt="" /></h1>
+            <h1 className="text-xl font-bold text-green-600">
+              <img src="/logo.svg" alt="Logo" />
+            </h1>
 
           
             <input
